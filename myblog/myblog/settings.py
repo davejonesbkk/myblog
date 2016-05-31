@@ -55,6 +55,8 @@ MIDDLEWARE_CLASSES = [
 
 ROOT_URLCONF = 'myblog.urls'
 
+WSGI_APPLICATION = 'myblog.wsgi.application'
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',

@@ -22,4 +22,5 @@ urlpatterns = patterns(
 	'',
     url(r'^$', views.BlogIndex.as_view(), name='index'),
     
+    
 )
